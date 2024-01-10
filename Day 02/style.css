@@ -1,0 +1,73 @@
+.all {
+    position: relative;
+    border: 1px solid rgb(15, 0, 128);
+    height:6000px;
+    margin: 10px auto;
+    width: 30%;
+    background-color: antiquewhite;
+  
+
+   
+}
+
+
+
+
+
+.relative {
+    position: relative;
+    left: 100px;
+    top: 100px;
+    background-color: blue;
+    height: 120px;
+   
+}
+
+.absolute {
+    width: 100%;
+    position: absolute;
+    left: 100px;
+    top: 0px;
+    background-color: black;
+    height: 120px;
+    z-index: -1;
+   
+}
+
+.static{
+    position: static;
+    left: 100px;
+    top: 1000px;
+    background-color: red;
+    height: 120px;
+}
+
+
+.fixed {
+    background-color: yellow;
+    position: static;
+    left: -100px;
+    top: -1000px;
+    height: 120px;
+    
+}
+
+.Square{
+    position: relative;
+    background-color: blue;
+    width: 500px;
+    height: 300px;
+}
+
+.circle{
+    position: relative;
+    background-color: #ff0011;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    left: 250px;
+    top: 150px;
+    text-align: center;
+}
+
+

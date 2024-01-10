@@ -1,0 +1,49 @@
+/* <div class="flag">
+<div class="red">The Flag</div>
+<div class="blue">
+    <div class="circle">of Laos</div>
+</div>
+<div class="red"></div>
+</div> */
+
+.flag{
+    position: absolute;
+    width: 900px;
+    height: 600px;
+    margin: auto;
+}
+
+.circle{
+    top: 30px;
+
+    position: relative;
+    border-radius: 50%;
+    width:100px;
+    left:400px;
+    height: 100px;
+    background-color: #fff;
+
+   
+
+}
+
+.red{
+    background-color: rgb(129, 22, 22);
+    height: 100px;
+}
+
+.first{
+    text-align: center;
+    line-height: 70px;
+    font-size: 40px;
+    color: white;
+    
+}
+
+.blue{
+    background-color: rgb(4, 4, 82);
+    height: 150px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 38px;
+}
